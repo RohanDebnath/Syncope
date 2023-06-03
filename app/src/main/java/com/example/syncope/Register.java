@@ -24,7 +24,7 @@ public class Register extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register);// Replace with your register XML filename
+        setContentView(R.layout.activity_register);
 
         mAuth = FirebaseAuth.getInstance();
         emailEditText = findViewById(R.id.emailReg);

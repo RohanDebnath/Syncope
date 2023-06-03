@@ -85,12 +85,11 @@ public class Login extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            // Login success, proceed to the next activity or do something else
                             Toast.makeText(Login.this, "Login successful", Toast.LENGTH_SHORT).show();
                             Intent intent=new Intent(Login.this,Dashboard.class);
                             startActivity(intent);
                         } else {
-                            // Login failed, display an error message
+
                             Toast.makeText(Login.this, "Login failed: " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                         }
                     }

@@ -79,7 +79,7 @@
                 android:layout_height="50dp"
                 android:id="@+id/regBtn"
                 android:text="Register"
-                android:backgroundTint="@color/purple"
+                android:backgroundTint="@color/blueish"
                 android:drawableLeft="@drawable/baseline_app_registration_24"
                 android:textColor="@color/black"
                 android:layout_margin="10dp"
