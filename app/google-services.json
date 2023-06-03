@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "798009574081",
+    "project_id": "syncope-4f24e",
+    "storage_bucket": "syncope-4f24e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798009574081:android:c9e1b7ccc39efd3c20ca40",
+        "android_client_info": {
+          "package_name": "com.example.syncope"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798009574081-4tmmfo1gnfbputmde1ote40sniheujab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5kwI4wEBbIswj9XEli2_IF9sTGOZWr3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798009574081-4tmmfo1gnfbputmde1ote40sniheujab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
